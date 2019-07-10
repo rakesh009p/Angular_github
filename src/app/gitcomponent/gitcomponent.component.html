@@ -1,0 +1,16 @@
+<div class="col-sm-4 col-lg-4 col-xl-4 col-md-4  ">    
+<div  class="sidenav">
+    <h6>Repositories
+       <span><button type="button" class="btn-sm btn-success">New</button></span>
+    </h6>
+    <label>
+      <input class="form-control"  type="text" placeholder="Find a Repositories..">
+    </label><br>
+   <ul *ngFor="let item of user">
+    <li><i class="fa fa-book"></i> <a href="#"> {{item.full_name}} </a> </li>
+   
+   </ul>
+
+   </div>
+</div>
+   
